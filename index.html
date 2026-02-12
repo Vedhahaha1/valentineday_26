@@ -179,7 +179,7 @@ function finalMessage() {
             <img id="slideImage" src="${photos[0]}" alt="slideshow image">
         </div>
 
-        <p>I can't wait to spend this special moment with you ❤️🌹</p>
+        <p>I can't wait to spend this for the first time with you ❤️🌹</p>
         <p>Happy Valentine's Day 💕</p>
     `;
 
@@ -193,7 +193,7 @@ function startSlideshow() {
     slideshowInterval = setInterval(() => {
         currentPhoto = (currentPhoto + 1) % photos.length;
         img.src = photos[currentPhoto];
-    }, 7000); // 7 seconds
+    }, 5000); // 7 seconds
 }
 
 function createHeart() {
